@@ -58,7 +58,7 @@ export default function FloatingCallButton() {
             ? "opacity-100 translate-y-0 scale-100"
             : "opacity-0 translate-y-4 scale-95 pointer-events-none"
         }`}
-        style={{ bottom: `${advancedConfig.buttonSize + 8}px` }}
+        style={{ bottom: `${callCenterConfig.buttonSize + 8}px` }}
       >
         <div className="bg-white rounded-2xl shadow-2xl border border-slate-200/50 overflow-hidden">
           {/* Header */}
@@ -111,7 +111,7 @@ export default function FloatingCallButton() {
       <button
         onClick={() => setIsOpen(!isOpen)}
         className={`relative w-14 h-14 bg-gradient-to-r ${primaryColor} rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:shadow-2xl hover:scale-110 active:scale-95`}
-        style={{ width: advancedConfig.buttonSize, height: advancedConfig.buttonSize }}
+        style={{ width: callCenterConfig.buttonSize, height: callCenterConfig.buttonSize }}
       >
         {/* Pulse Animation */}
         {pingAnimation && (
