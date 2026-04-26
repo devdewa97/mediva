@@ -98,7 +98,7 @@ export default function Navbar() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t">
+          <div className="md:hidden py-4">
             {navItems.map((item) => (
               item.label === "Layanan" ? (
                 <div key={item.label}>
@@ -127,26 +127,26 @@ export default function Navbar() {
                   )}
                 </div>
               ) : (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  className="block py-3 text-slate-600 hover:text-[#208300] transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.label}
-                </a>
+              <a
+              key={item.label}
+              href={item.href}
+              className="block py-3 text-slate-600 hover:text-[#208300] transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+              >
+                {item.label}
+              </a>
               )
             ))}
             <a
-              href="#kontak"
-              className="inline-block mt-4 bg-[#208300] text-white px-6 py-3 rounded-full font-semibold"
-              onClick={() => setIsMenuOpen(false)}
+            href="#kontak"
+            className="inline-block mt-4 bg-[#208300] text-white px-6 py-3 rounded-full font semibold"
+            onClick={() => setIsMenuOpen(false)}
             >
               Konsultasi Sekarang
             </a>
-          </div>
+            </div>
         )}
-      </div>
-    </nav>
+        </div>
+        </nav>
   );
 }
