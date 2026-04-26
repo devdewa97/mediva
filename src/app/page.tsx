@@ -234,14 +234,14 @@ export default function Home() {
                 </div>
                 {/* Badge for Person 2 (Right) */}
                 <div className="absolute bottom-20 right-4 bg-white/95 backdrop-blur-sm px-3 py-2 rounded-xl shadow-lg">
-                  <p className="text-sm font-bold text-slate-800">dr. Sari Dewi</p>
-                  <p className="text-xs text-slate-500">Perawat Senior</p>
+                  <p className="text-sm font-bold text-slate-800">Yosep Frandi</p>
+                  <p className="text-xs text-slate-500">Wound Care Practitioner</p>
                 </div>
                 {/* Verification Badge */}
                 <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white px-4 py-2 rounded-xl shadow-lg">
                   <div className="flex items-center gap-2">
                     <Shield className="w-5 h-5 text-[#208300]" />
-                    <span className="text-sm font-semibold text-slate-800">Terverifikasi</span>
+                    <span className="text-sm font-semibold text-slate-800">Terverifikasi Medis</span>
                   </div>
                 </div>
               </div>
