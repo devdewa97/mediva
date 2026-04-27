@@ -14,7 +14,7 @@ import {
 const services = [
   { icon: Droplet, title: "Perawatan Luka Akut dan Kronis", desc: "Penanganan luka pasca trauma, operasi, atau luka kronis dengan pendekatan berbasis bukti." },
   { icon: Scissors, title: "Pembersihan dan Debridement Luka", desc: "Prosedur pembersihan jaringan mati secara aman dan steril untuk percepatan penyembuhan." },
-  { icon: Cpu, title: "Penggunaan Teknologi Modern", desc: "MemVac-assisted closure, terapi oksigen hiperbarik, dan produk现代伤口护理技术。" },
+  { icon: Cpu, title: "Penggunaan Teknologi Modern", desc: "MemVac-assisted closure, terapi oksigen hiperbarik." },
   { icon: HeartPulse, title: "Perawatan Luka Diabetes", desc: "Pendekatan khusus untuk diabetic foot ulcer dengan monitoring ketat." },
   { icon: FileText, title: "Edukasi Pasien dan Keluarga", desc: "Pelatihan perawatan luka mandiri dan pencegahan komplikasi." },
   { icon: Stethoscope, title: "Rujukan ke Spesialis", desc: "Koordinasi rujukan ke dokter bedah, penyakit dalam, atau endokrinologi." },
