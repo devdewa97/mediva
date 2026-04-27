@@ -151,7 +151,7 @@ export default function Page() {
       </section>
 
       {/* Klinik Approach Section */}
-      <section className="py-24 bg-gradient-to-br from-slate-50 via-white to-emerald-50/30 relative overflow-hidden">
+      <section className="py-24 bg-linear-to-br from-slate-50 via-white to-emerald-50/30 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#208300]/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-emerald-100/40 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
         <div className="max-w-6xl mx-auto px-6 relative z-10">
@@ -168,10 +168,10 @@ export default function Page() {
               const Icon = s.icon;
               return (
                 <div key={i} className="group relative bg-white/80 backdrop-blur-sm border border-slate-200/80 rounded-2xl p-7 shadow-sm hover:shadow-xl hover:border-[#208300]/30 hover:-translate-y-1 transition-all duration-300 cursor-pointer overflow-hidden">
-                  <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-[#208300]/10 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-linear-to-bl from-[#208300]/10 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div className="relative">
                     <div className="flex items-center justify-between mb-6">
-                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#208300] to-emerald-600 flex items-center justify-center shadow-lg shadow-[#208300]/20 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-[#208300]/30 transition-all duration-300">
+                      <div className="w-14 h-14 rounded-2xl bg-linear-to-br from-[#208300] to-emerald-600 flex items-center justify-center shadow-lg shadow-[#208300]/20 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-[#208300]/30 transition-all duration-300">
                         <Icon className="w-7 h-7 text-white" />
                       </div>
                       <span className="text-5xl font-bold text-slate-100 group-hover:text-[#208300]/10 transition-colors duration-300 select-none">{String(i + 1).padStart(2, '0')}</span>
@@ -185,10 +185,10 @@ export default function Page() {
             <div className="lg:col-start-2">
               {(() => { const s = features[6]; const Icon = s.icon; return (
                 <div className="group relative bg-white/80 backdrop-blur-sm border border-slate-200/80 rounded-2xl p-7 shadow-sm hover:shadow-xl hover:border-[#208300]/30 hover:-translate-y-1 transition-all duration-300 cursor-pointer overflow-hidden">
-                  <div className="absolute top-0 right-0 w-24 h-24 bg-gradient-to-bl from-[#208300]/10 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute top-0 right-0 w-24 h-24 bg-linear-to-bl from-[#208300]/10 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div className="relative">
                     <div className="flex items-center justify-between mb-6">
-                      <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#208300] to-emerald-600 flex items-center justify-center shadow-lg shadow-[#208300]/20 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-[#208300]/30 transition-all duration-300">
+                      <div className="w-14 h-14 rounded-2xl bg-linear-to-br from-[#208300] to-emerald-600 flex items-center justify-center shadow-lg shadow-[#208300]/20 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-[#208300]/30 transition-all duration-300">
                         <Icon className="w-7 h-7 text-white" />
                       </div>
                       <span className="text-5xl font-bold text-slate-100 group-hover:text-[#208300]/10 transition-colors duration-300 select-none">07</span>
@@ -204,7 +204,7 @@ export default function Page() {
       </section>
 
       {/* Dokumentasi Kegiatan Section */}
-      <section className="py-24 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+      <section className="py-24 bg-linear-to-b from-slate-50 to-white relative overflow-hidden">
         <div className="absolute top-0 left-0 w-64 h-64 bg-[#208300]/5 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-0 w-80 h-80 bg-emerald-50 rounded-full blur-3xl" />
         <div className="max-w-6xl mx-auto px-6 relative z-10">
@@ -218,45 +218,45 @@ export default function Page() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="group relative overflow-hidden rounded-2xl aspect-4/3 shadow-lg hover:shadow-2xl transition-all duration-300">
               <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80" alt="Prosedur Khitan" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <p className="font-semibold">Prosedur Khitan Steril</p>
               </div>
             </div>
-            <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="group relative overflow-hidden rounded-2xl aspect-4/3 shadow-lg hover:shadow-2xl transition-all duration-300">
               <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80" alt="Tim Medis" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <p className="font-semibold">Tim Medis Berpengalaman</p>
               </div>
             </div>
-            <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="group relative overflow-hidden rounded-2xl aspect-4/3 shadow-lg hover:shadow-2xl transition-all duration-300">
               <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80" alt="Konsultasi" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <p className="font-semibold">Konsultasi Pra Khitan</p>
               </div>
             </div>
 
-            <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="group relative overflow-hidden rounded-2xl aspect-4/3 shadow-lg hover:shadow-2xl transition-all duration-300">
               <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=600&q=80" alt="Anak Khitan" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <p className="font-semibold">Layanan untuk Anak</p>
               </div>
             </div>
-            <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="group relative overflow-hidden rounded-2xl aspect-4/3 shadow-lg hover:shadow-2xl transition-all duration-300">
               <img src="https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&q=80" alt="Ruang Tindakan" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <p className="font-semibold">Fasilitas Ruang Tindakan</p>
               </div>
             </div>
-            <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="group relative overflow-hidden rounded-2xl aspect-4/3 shadow-lg hover:shadow-2xl transition-all duration-300">
               <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80" alt="Perawatan Pasca" className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="absolute bottom-4 left-4 right-4 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <p className="font-semibold">Perawatan Pasca Khitan</p>
               </div>
@@ -268,9 +268,9 @@ export default function Page() {
       {/* CTA Section */}
       <section id="kontak" className="py-24 relative overflow-hidden">
         {/* Background with gradient and pattern */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#208300] to-[#166600]"></div>
+        <div className="absolute inset-0 bg-linear-to-r from-[#208300] to-[#166600]"></div>
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMtOS45NDE0MTkgMC0xOCA4LjA1ODgxLTE4jE4czQuMDU4ODEtMTggMTgtMTggMTkgNC4wNTg4MSAxOSAxOC0zLjk1Njk4IDE4LTE4IDE4em0zLjMzMzMzMyAxMi41TDI0IDEwdi0xLjMzMzMzN0MxNS4yMTAwNCA1LjgxMjEwNiAxNC40NTQ4OCA1IDIxLjcxMzk4IDVjMi4yNjQ5NiAwIDQuMjkyNjYgMC41NDkyMSA1Ljc5NjczIDEuNTM2NTFMNDIuMzMzMzMgMjYuNUM0My4zMzMzMyAyNy4xMjY5NyA0NCAyOCA0NCAyOHMtLjY2NjY3LS42MzMzMzMtdy0uNjY2NjdNMTYgMzJjLTcuMDYyMzg1IDAtMTMtNS4zNzY3LTEzLTEyek0zNiA0NnYyMkwzNiA0NnoiIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4xKSIvPjwvZz48L3N2Zz4=')] opacity-30"></div>
-        <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
+        <div className="absolute inset-0 bg-linear-to-t from-black/20 via-transparent to-transparent"></div>
 
         {/* Decorative circles */}
         <div className="absolute top-10 left-10 w-32 h-32 bg-white/10 rounded-full blur-3xl"></div>

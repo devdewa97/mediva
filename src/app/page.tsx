@@ -41,7 +41,7 @@ export default function Home() {
             className="w-full h-full object-cover"
           />
           {/* Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#208300]/95 to-[#208300]/70"></div>
+          <div className="absolute inset-0 bg-linear-to-r from-[#208300]/95 to-[#208300]/70"></div>
         </div>
 
         {/* Content */}

@@ -106,7 +106,7 @@ export default function Page() {
               <div className="absolute top-0 right-0 w-24 h-24 bg-linear-to-bl from-[#208300]/10 to-transparent rounded-bl-full opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               <div className="relative">
                 <div className="flex items-center justify-between mb-6">
-                  <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-[#208300] to-emerald-600 flex items-center justify-center shadow-lg shadow-[#208300]/20 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-[#208300]/30 transition-all duration-300">
+                  <div className="w-14 h-14 rounded-2xl bg-linear-to-br from-[#208300] to-emerald-600 flex items-center justify-center shadow-lg shadow-[#208300]/20 group-hover:scale-110 group-hover:shadow-xl group-hover:shadow-[#208300]/30 transition-all duration-300">
                     <Shield className="w-7 h-7 text-white" />
                   </div>
                   <span className="text-5xl font-bold text-slate-100 group-hover:text-[#208300]/10 transition-colors duration-300 select-none">01</span>

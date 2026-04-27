@@ -290,7 +290,7 @@ export default function TentangKamiPage() {
 
             <div className="relative z-10">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
-                Siat Melawat Luka Anda Bersama Kami
+                Siap Melawat Luka Anda Bersama Kami
               </h2>
               <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
                 Dengan pengalaman 1500+ pasien dan tim medis profesional, kami siap memberikan perawatan luka terbaik untuk kesembuhan Anda.
